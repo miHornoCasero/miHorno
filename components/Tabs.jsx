@@ -14,12 +14,13 @@ const Tabs = () => {
   ];
 
   return (
-    <div className="mt-5 py-3 px-5 flex flex-col max-w-xl">
-      <div className="flex gap-3 justify-evenly ">
+    <div className="mt-5">
+
+      <nav className=" gap-3 intems-center text-center flex justify-center">
         {tabs.map((tab, index) => (
           <button
             key={`tab_${index}`}
-            className={` border flex-1 ${
+            className={` px-4 border  w-75 ${
               activeTab === index ? "bg-blue-400 text-white" : ""
             } py-3 hover:bg-blue-300`}
             onClick={() => setActiveTab(index)}
@@ -27,9 +28,9 @@ const Tabs = () => {
             {tab}
           </button>
         ))}
-      </div>
+      </nav>
 
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col mx-auto ">
         {contents &&
           contents.map((content, index) => {
             if (activeTab === index) {
@@ -45,6 +46,8 @@ const Tabs = () => {
             return null;
           })}
       </div>
+
+
     </div>
   );
 };

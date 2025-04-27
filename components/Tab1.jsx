@@ -5,7 +5,7 @@ const Tab1 = () => {
   return (
     <>
       <div>
-        <div className=" flex-1 flex-col items-center justify-center w-full">
+        <div className="items-center justify-center">
           <ModeloBanco />
         </div>
 
