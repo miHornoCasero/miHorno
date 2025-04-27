@@ -1,11 +1,12 @@
 import React from "react";
 import { useState } from "react";
+import Tab1 from "./Tab1";
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState(0);
   const tabs = ["Tab 1", "Tab 2", "Tab 3"];
   const contents = [
-    "Content for Tab 1",
+    <Tab1 /> ,
     "Content for Tab 2",
     "Content for Tab 3",
   ];
