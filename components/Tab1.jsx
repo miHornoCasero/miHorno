@@ -5,13 +5,15 @@ const Tab1 = () => {
   return (
     <>
       <div>
-        <div className="items-center justify-center">
+        <div className="items-center justify-center bg-custom">
           <ModeloBanco />
         </div>
 
         <div className="mt-5 py-3 px-2 flex flex-col items-center">
-          <h1>Tab 1</h1>
-          <p>This is the content for Tab 1.</p>
+          <h1>Banco Centrifugo</h1>
+          <h2 className="text-center text-2xl font-bold mt-3">         
+            Este modelo es el banco de pruebas de la UNGS 
+          </h2>
         </div>
       </div>
     </>

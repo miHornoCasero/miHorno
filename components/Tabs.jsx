@@ -6,11 +6,12 @@ import Tab3 from "./Tab3";
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState(0);
-  const tabs = ["Tab 1", "Tab 2", "Tab 3"];
+  const tabs = ["Modelo 3D", "Controles", "Graficos" , "About"];
   const contents = [
     <Tab1 /> ,
     <Tab2 />,
-    <Tab3 />
+    <Tab3 /> , 
+    "About"
   ];
 
   return (

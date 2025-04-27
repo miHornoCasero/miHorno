@@ -6,6 +6,10 @@ body {
   display: flex;
   place-items: center;
   width: 100vw;
+  background-color: #050816;
+  color: rgb(238, 238, 238);
+  scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 
@@ -15,4 +19,8 @@ h1 {
 }
 
 
-
+.bg-custom {
+  background-image: url('/herobg.png');
+  background-size: cover;
+  background-position: center;
+}
