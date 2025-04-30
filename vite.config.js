@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/banco-1',
+  base: '/miHorno',
   assetsInclude: ['**/*.glb'],
   plugins: [
     tailwindcss(),
