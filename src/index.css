@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+*:not(body){
+  outline: 1px solid red;
+}
 
 body {
   margin: 0;
@@ -10,6 +13,7 @@ body {
   color: rgb(238, 238, 238);
   scroll-behavior: smooth;
   color-scheme: dark;
+  outline: 1px solid rgb(143, 218, 23);
 }
 
 

@@ -2,9 +2,15 @@ import React from "react";
 
 const Tab2 = () => {
     return (
-        <div className="mt-5 h-196 py-3 px-2">
-        <h1>Tab 2</h1>
+        <div className="mt-5 py-3 px-2">
+
+
+
+        <h1 className="py-5 mb-6">Tab 2</h1>
         <p>This is the content for Tab 2.</p>
+
+
+
         </div>
     );
     }

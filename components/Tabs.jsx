@@ -3,14 +3,15 @@ import { useState } from "react";
 import Tab1 from "./Tab1";
 import Tab2 from "./Tab2";
 import Tab3 from "./Tab3";
+import Historia from "./Historia";
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState(0);
-  const tabs = ["Modelo 3D", "Controles", "Graficos" , "About"];
+  const tabs = ["Modelo 3D", "Controles", "Historia" , "About"];
   const contents = [
     <Tab1 /> ,
     <Tab2 />,
-    <Tab3 /> , 
+    <Historia /> , 
     "About"
   ];
 
