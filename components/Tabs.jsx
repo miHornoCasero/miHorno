@@ -18,7 +18,7 @@ const Tabs = () => {
   return (
     <div className="mt-5">
 
-      <nav className=" gap-3 intems-center text-center flex justify-center">
+      <nav className=" gap-3 intems-center text-center flex">
         {tabs.map((tab, index) => (
           <button
             key={`tab_${index}`}
@@ -32,7 +32,7 @@ const Tabs = () => {
         ))}
       </nav>
 
-      <div className="flex flex-col mx-auto ">
+      <div className="flex flex-col my-min-w-[1000px]">
         {contents &&
           contents.map((content, index) => {
             if (activeTab === index) {
