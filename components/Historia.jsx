@@ -1,5 +1,5 @@
 import React from "react";
-import imagen1 from "/src/assets/foto-tonta.jpg";
+import imagen1 from "/src/assets/foto-hernan.jpg";
 import imagen2 from "/src/assets/foto-cintia.jpg";
 
 const Historia = () => {
