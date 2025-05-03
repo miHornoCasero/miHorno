@@ -1,4 +1,5 @@
 import React from "react";
+import file1 from "/src/assets/file.pdf";
 
 const TabCursos = () => {
   return (
@@ -12,7 +13,7 @@ const TabCursos = () => {
       <div className="flex flex-col gap-2 mt-5">
         <a
           className="underline text-blue-600"
-          href="./public/file.pdf"
+          href={file1}
           download
         >
           {" "}
