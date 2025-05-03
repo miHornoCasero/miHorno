@@ -1,12 +1,15 @@
 import React from "react";
+import EnConstruccion from "./BajoConstruccion";
 
 
-const Tab3 = () => {
+const TabAbout = () => {
     return (
         <div className="mt-5  py-3 px-2">
-        <h1>Tab 3</h1>
+        <h1>About</h1>
         <p>This is the content for Tab 3.</p>
+
+        <EnConstruccion />
         </div>
     );
     }
-    export default Tab3;
+    export default TabAbout;

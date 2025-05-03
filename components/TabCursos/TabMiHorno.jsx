@@ -12,7 +12,7 @@ const TabCursos = () => {
       <div className="flex flex-col gap-2 mt-5">
         <a
           className="underline text-blue-600"
-          href="./miHorno/public/file.pdf"
+          href="./public/file.pdf"
           download
         >
           {" "}
@@ -20,7 +20,7 @@ const TabCursos = () => {
         </a>
         <a
           className="underline text-blue-600"
-          href="./miHorno/public/file.pdf"
+          href="./public/file.pdf"
           download
         >
           {" "}
@@ -28,7 +28,7 @@ const TabCursos = () => {
         </a>
         <a
           className="underline text-blue-600"
-          href="./miHorno/public/file.pdf"
+          href="./public/file.pdf"
           download
         >
           {" "}

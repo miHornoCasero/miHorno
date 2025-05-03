@@ -2,14 +2,15 @@ import React from "react";
 import { useState } from "react";
 import Tab1 from "./Tab1";
 import Tab2 from "./Tab2";
-import Tab3 from "./Tab3";
 import Historia from "./Historia";
 import TabCursos from "./TabCursos";
+import TabAbout from "./TabAbout";
+
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState(0);
   const tabs = ["Modelo 3D", "Controles", "Historia", "About" , "Cursos"];
-  const contents = [<Tab1 />, <Tab2 />, <Historia />, "About" , <TabCursos />];
+  const contents = [<Tab1 />, <Tab2 />, <Historia />, <TabAbout /> , <TabCursos />];
 
   return (
     <div className="mt-0">
