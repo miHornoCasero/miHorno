@@ -11,6 +11,7 @@ const ModeloBanco = () => {
   const groupRef = useRef();
 
   return (
+    // algo
     <Canvas
       style={{ height: "500px", width: "500px" }}
       camera={{ position: [5, 5, 5], fov: 25 }}
@@ -37,13 +38,13 @@ const ModeloBanco = () => {
                 <Edges
                   threshold={15} // cuán nítido tiene que ser el ángulo para dibujar el borde
                   color="black"
-                />
+                /> 
               </mesh>
             );
           }
           return null;
         })}
-
+        
         <OrbitControls />
       </group>
     </Canvas>
