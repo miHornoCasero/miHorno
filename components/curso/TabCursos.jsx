@@ -1,8 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import TabMiHorno from "./mihorno/TabMiHorno";
 import TabCursosMiHorno from "./mihorno/TabCursosMiHorno";
-
 
 const TabCursos = () => {
 
