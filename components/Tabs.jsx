@@ -3,7 +3,7 @@ import { useState } from "react";
 import Tab1 from "./Tab1";
 import Tab2 from "./Tab2";
 import Historia from "./Historia";
-import TabCursos from "./TabCursos";
+import TabCursos from "/components/curso/TabCursos";
 import TabAbout from "./TabAbout";
 
 
