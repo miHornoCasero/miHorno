@@ -15,7 +15,7 @@ const Historia = () => {
           Costantini, somos una pequeña PYME familiar que se dedica a la
           fabricacion de hornos electricos para ceramica. Nuestro objetivo es
           poner al alcance de todos los ceramistas, un horno electrico de
-          calidad, a un precio accesible.
+          calidad, a un precio accesible..
         </h2>
 
         <div className=" mt-5 mb-5 py-5 px-2 flex items-center justify-center gap-5">
